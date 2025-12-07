@@ -14,6 +14,6 @@
 
 ### Примеры вывода команд
 Создание образа и поднятие docker - контейнера  
-![запуск контейнера](screenshots\docker_up.png)  
+![запуск контейнера](screenshots/docker_up.png)  
 Проверка /health и /predict через запуск client.py из контейнера  
-![запуск контейнера](screenshots\docker_check.png)  
+![запуск контейнера](screenshots/docker_check.png)  
