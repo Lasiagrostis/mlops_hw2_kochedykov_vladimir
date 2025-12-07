@@ -11,3 +11,9 @@
 2. Создаёте докер - образ `docker build -t grpc-ml-service .`  
 3. Поднимаете контейнер `docker run --name grpc_service -p 50051:50051 grpc-ml-service`  
 4. Для проверки эндпоинтов запустите клиент `python -m client.client`  
+
+### Примеры вывода команд
+Создание образа и поднятие docker - контейнера  
+![запуск контейнера](screenshots\docker_up.png)  
+Проверка /health и /predict через запуск client.py из контейнера  
+![запуск контейнера](screenshots\docker_check.png)  
